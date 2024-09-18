@@ -1,0 +1,72 @@
+.weapon-tabs {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  .tab-headers {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .tab-headers button {
+    padding: 10px 0;
+    background-color: #444;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    transform: skew(-20deg); /* Creates the parallelogram shape */
+  }
+  
+  .tab-headers button.active {
+    background-color: #1e90ff; /* Highlight the active tab */
+  }
+  
+  .tab-headers button:hover {
+    background-color: #555;
+  }
+  
+  .tab-content {
+    display: flex;
+    flex-direction: column; /* Stack weapon details vertically */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .weapon-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem; /* Space between each weapon */
+    border-bottom: 1px solid #444; /* Adds a border between weapons */
+    padding-bottom: 1rem;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .weapon-image {
+    max-width: 150px;
+    margin-right: 2rem;
+    border-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  .weapon-description {
+    color: #f5f5f5;
+  }
+  
+  .weapon-description h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffcc00; /* Gold color for weapon name */
+  }
+  
+  .weapon-description p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  

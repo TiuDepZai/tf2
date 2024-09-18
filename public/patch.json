@@ -1,0 +1,34 @@
+[
+  {
+    "role": "Sniper",
+    "primary_weapon": [
+      {
+        "name": "Sniper Rifle",
+        "image": "./images/sniper_rifle.png",
+        "patch_notes": "I don't know lol"
+      },
+      {
+        "name": "AWPer Hand",
+        "image": "./images/sniper_AWPer_hand.png",
+        "patch_notes": "I don't know lol"
+      }
+    ],
+    "secondary_weapon": [
+      {
+        "name": "Sniper Rifle",
+        "image": "./images/sniper_rifle.png",
+        "patch_notes": "I don't know lol"
+      }
+    ],
+    "melee": [
+      {
+        "name": "Sniper Rifle",
+        "image": "./images/sniper_rifle.png",
+        "patch_notes": "I don't know lol"
+      }
+    ],
+    "image": "/images/sniper.png"
+  }
+
+]
+  

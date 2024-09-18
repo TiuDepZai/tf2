@@ -1,0 +1,110 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Impact', 'Arial', sans-serif;
+  background-color: #222222;
+  color: #f5f5f5;
+  padding: 2rem;
+  min-height: 100vh; /* Ensures the height is at least 100% of the viewport height */
+  flex: 1; /* This will make sure it grows to fill available space if it's in a flex container */
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffcc00; /* TF2 Gold for the main title */
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px #000; /* Adds a shadow for a bold, industrial look */
+}
+
+/* Center the patch notes with flexbox */
+.patch-notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Character section styles */
+.character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border: 2px solid #696969; /* Metallic border */
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  background-color: #333333; /* Dark industrial background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8); /* Gives depth */
+}
+
+/* Align the role title to the left */
+.role-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #a52a2a; /* RED Team color */
+  text-transform: uppercase;
+  text-align: left;
+  width: 100%;
+}
+
+/* Image styling */
+.character-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 2px solid #1e90ff; /* BLU Team color */
+}
+
+/* Table styling for weapons */
+.weapons-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.weapons-table th, .weapons-table td {
+  padding: 12px;
+  border: 1px solid #696969; /* Metallic border for a rugged look */
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.weapons-table th {
+  background-color: #1e90ff; /* BLU Team background for table header */
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.weapons-table td {
+  background-color: #444444; /* Darker background for table cells */
+  font-size: 1rem;
+}
+
+.weapons-table td small {
+  display: block;
+  margin-top: 5px;
+  color: #ffcc00; /* Gold for the patch notes */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .character {
+    width: 90%;
+  }
+
+  .weapons-table th, .weapons-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
